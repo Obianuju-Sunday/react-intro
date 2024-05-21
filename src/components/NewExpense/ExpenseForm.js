@@ -68,12 +68,12 @@ export default ExpenseForm;
 
 // Keep in mind to use if your state update depends on the previous state // 
 
-// const [userInput, setUserIput] = useState({
+// const [userInput, setUserInput] = useState({
 //     enteredAmount: '',
 //     enteredDate: '',
 //     enteredTitle: '',
 // })
 
-// setUserIput((prevState) => {
+// setUserInput((prevState) => {
 //     return {...prevState, enteredTitle: event.target.value}
 // });

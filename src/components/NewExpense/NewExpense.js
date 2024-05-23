@@ -8,7 +8,7 @@ const NewExpense = () => {
     const saveExpenseDataHandler = (enteredExpenseData) => {
         const expenseData = {
             ...enteredExpenseData,
-            id: Math.random().toString()
+            id: Math.floor(Math.random() * 5).toString()
         }
         console.log(expenseData)
     }

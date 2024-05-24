@@ -29,6 +29,8 @@ const dummy_expenses = [
 ];
 
 
+// const [state, setstate] = useState(initialState)
+
 const App = () => {
 const [expenses, setExpenses] = useState(dummy_expenses )
 
